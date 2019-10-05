@@ -1,0 +1,71 @@
+Installing sass-rails 5.1.0
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/home/vladimir/.asdf/installs/ruby/2.6.4/lib/ruby/gems/2.6.0/gems/sqlite3-1.4.1/ext/sqlite3
+/home/vladimir/.asdf/installs/ruby/2.6.4/bin/ruby -I
+/home/vladimir/.asdf/installs/ruby/2.6.4/lib/ruby/2.6.0 -r ./siteconf20191004-10912-nrowkv.rb
+extconf.rb
+checking for sqlite3.h... no
+sqlite3.h is missing. Try 'brew install sqlite3',
+'yum install sqlite-devel' or 'apt-get install libsqlite3-dev'
+and check your shared library search path (the
+location where your sqlite3 shared library is located).
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/vladimir/.asdf/installs/ruby/2.6.4/bin/$(RUBY_BASE_NAME)
+	--with-sqlcipher
+	--without-sqlcipher
+	--with-sqlite3-config
+	--without-sqlite3-config
+	--with-pkg-config
+	--without-pkg-config
+	--with-sqlcipher
+	--without-sqlcipher
+	--with-sqlite3-dir
+	--without-sqlite3-dir
+	--with-sqlite3-include
+	--without-sqlite3-include=${sqlite3-dir}/include
+	--with-sqlite3-lib
+	--without-sqlite3-lib=${sqlite3-dir}/lib
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+/home/vladimir/.asdf/installs/ruby/2.6.4/lib/ruby/gems/2.6.0/extensions/x86_64-linux/2.6.0-static/sqlite3-1.4.1/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/home/vladimir/.asdf/installs/ruby/2.6.4/lib/ruby/gems/2.6.0/gems/sqlite3-1.4.1 for inspection.
+Results logged to
+/home/vladimir/.asdf/installs/ruby/2.6.4/lib/ruby/gems/2.6.0/extensions/x86_64-linux/2.6.0-static/sqlite3-1.4.1/gem_make.out
+
+An error occurred while installing sqlite3 (1.4.1), and Bundler cannot continue.
+Make sure that `gem install sqlite3 -v '1.4.1' --source 'https://rubygems.org/'` succeeds before
+bundling.
+
+In Gemfile:
+  sqlite3
+         run  bundle binstubs bundler
+Could not find gem 'sqlite3 (~> 1.4)' in any of the gem sources listed in your Gemfile.
+         run  bundle exec spring binstub --all
+Could not find gem 'sqlite3 (~> 1.4)' in any of the gem sources listed in your Gemfile.
+Run `bundle install` to install missing gems.
+       rails  webpacker:install
+Could not find gem 'sqlite3 (~> 1.4)' in any of the gem sources listed in your Gemfile.
+Run `bundle install` to install missing gems.
+
