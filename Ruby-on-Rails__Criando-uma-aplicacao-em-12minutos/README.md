@@ -36,7 +36,9 @@ Colocar `/aliens` após no final endereço na barra de navegação pra acessar o
 `http://localhost:3000/aliens`
 
 
-![Início do Módulo.png](./img/Início do Módulo.png)
+
+![Inicio-do-modulo.png](./img/Inicio-do-modulo.png)
+
 
 ![Aliens.png](./img/Aliens.png)
 
