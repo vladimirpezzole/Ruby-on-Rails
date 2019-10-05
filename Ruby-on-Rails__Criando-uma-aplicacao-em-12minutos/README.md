@@ -1,4 +1,4 @@
-#Ruby on Rails
+<h4><u>Ruby on Rails</u></h4>
 <h3>Criando uma aplicação em 12 minutos</h3>https://www.youtube.com/watch?v=cVsdbbW39eM
 
 <hr>
@@ -34,6 +34,7 @@ aparecerá a tela de boas-Vindas do Rails.
 ![Boas-vindas-rails.png](./img/Boas-vindas-rails.png)
 Colocar `/aliens` após no final endereço na barra de navegação pra acessar o módulo recém criado.
 `http://localhost:3000/aliens`
+
 
 ![Início do Módulo.png](./img/Início do Módulo.png)
 
@@ -76,7 +77,7 @@ Precisamos dizer no módulo que **Aliens** pertence a um **Planeta**.
 
 Para isso em `/spacerails/app/models/alien.rb`
 
-![belongs_to.png](./belongs_to.png)
+![belongs_to.png](./img/belongs_to.png)
 
 ```
 class Alien < ApplicationRecord
